@@ -20,7 +20,6 @@ public class Colas extends Lista{
     
     public void agregarColas(int cant) {
         for (int i = 0; i < cant; i++) {
-            Cajero cajero = new Cajero();
             listaColas.add(cajero);
         }
     }

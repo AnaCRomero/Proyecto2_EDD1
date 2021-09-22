@@ -28,14 +28,14 @@ public class Pila extends Lista{
         return cadena;
     }
     
-    public void MeterPila() {
+    public void MetePila() {
         Transaccion transaccion = new Transaccion();
         ArrayList aux = new ArrayList();
         aux = transaccion.getListaT();
         listaPilas = aux;
     }
     
-    public boolean VacioPila(ArrayList lista){
+    public boolean VaciaPila(ArrayList lista){
         boolean flag;
         if (!lista.isEmpty()) {
             flag = false;
