@@ -11,7 +11,6 @@ public class Pila extends Lista{
             System.out.println("[" + listaPilas.get(i)+"]");
         }
         System.out.println("");
-        
     }
     
     
